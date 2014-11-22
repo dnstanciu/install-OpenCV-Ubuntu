@@ -1,17 +1,17 @@
 #!/bin/bash
 
 ##############################################
-### Script for installing OpenCV 3.0 beta. ###
-###										   ###
-### Installs OpenCV in ~/src/opencv 	   ###
-###  							    	   ###
-###	Tested with:				    	   ###
-### 	- Ubuntu 14.04 LTS 64 bits   	   ###	
-### 	- OpenCV 3.0 beta 		    	   ###
-###  							    	   ###
-### Author: Dragos Stanciu 		   		   ###
-###										   ###
-### Based on: http://goo.gl/OQbMNf 		   ###
+### Script for installing OpenCV 3.0 beta. 
+###	
+### Installs OpenCV in ~/src/opencv
+### 
+###	Tested with:
+###     - Ubuntu 14.04 LTS 64 bits
+###     - OpenCV 3.0 beta
+###
+### Author: Dragos Stanciu
+###
+### Based on: http://goo.gl/OQbMNf
 ##############################################
 
 # update repos and upgrade packages
