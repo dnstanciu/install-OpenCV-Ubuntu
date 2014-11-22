@@ -24,7 +24,7 @@ sudo apt-get -y install libopencv-dev build-essential cmake git libgtk2.0-dev pk
 FOLDER_NAME="opencv"
 
 # go to home directory
-cd
+cd ~
 
 # create directory for libraries
 mkdir src
