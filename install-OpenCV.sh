@@ -1,13 +1,13 @@
 #!/bin/bash
 
 ##############################################
-### Script for installing OpenCV 3.0 beta. 
+### Script for installing OpenCV 2.4.11. 
 ###	
 ### Installs OpenCV in ~/src/opencv
 ### 
 ###	Tested with:
 ###     - Ubuntu 14.04 LTS 64 bits
-###     - OpenCV 3.0 beta
+###     - OpenCV 2.4.11
 ###
 ### Author: Dragos Stanciu
 ###
@@ -39,13 +39,13 @@ mkdir ${FOLDER_NAME}
 cd ${FOLDER_NAME}
 
 # download OpenCV 3 beta archive
-wget https://github.com/Itseez/opencv/archive/3.0.0-beta.zip -O opencv-3.0.0-beta.zip
+wget https://github.com/Itseez/opencv/archive/2.4.11.zip -O opencv-2.4.11.zip
 
 # extract contents
-unzip opencv-3.0.0-beta.zip
+unzip opencv-2.4.11.zip
 
 # enter directory
-cd opencv-3.0.0-beta
+cd opencv-2.4.11.zip
 
 # create build directory for compilation
 mkdir build
